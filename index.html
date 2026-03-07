@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="EnergyLeads — максимальный импульс для вашего финансового трафика."
+    />
+    <title>EnergyLeads</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allan:wght@700&family=Inter:wght@400;600&family=Plus+Jakarta+Sans:wght@400&family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__inner">
+        <a class="brand" href="#top" aria-label="EnergyLeads — на главную">
+          <img class="brand__logo" src="./img/logo.svg" alt="EnergyLeads" />
+        </a>
+
+        <nav class="nav" aria-label="Навигация">
+          <a class="nav__link" href="#top">О нас</a>
+          <a class="btn btn--primary btn--pill" href="#contacts">Контакты</a>
+        </nav>
+
+        <button class="burger" aria-label="Открыть меню" aria-expanded="false">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </button>
+      </div>
+
+      <div class="mobile-menu" aria-hidden="true">
+        <a class="mobile-menu__link" href="#top">О нас</a>
+        <a class="mobile-menu__link" href="#contacts">Контакты</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero hero--primary" aria-label="Первый экран">
+        <img
+          class="hero__bg hero__bg--primary"
+          src="./img/hero-bg.svg"
+          alt=""
+          aria-hidden="true"
+        />
+        <div class="container hero__inner">
+          <div class="hero__content">
+            <h1 class="hero__title">
+              <span class="hero__title--accent">Максимальный импульс</span
+              ><br />
+              для вашего финансового<br />
+              трафика
+            </h1>
+            <p class="hero__lead">
+              Нишевая CPA-платформа с прямыми офферами в сфере кредитования.
+              Высокий апрув, прозрачная аналитика и индивидуальные условия для
+              профессиональных команд.
+            </p>
+
+            <a class="btn btn--outline btn--lg" href="#form"
+              >Получить доступ к офферам</a
+            >
+          </div>
+
+          <div class="hero__visual">
+            <img
+              class="hero__img"
+              src="./img/hero-illustration.png"
+              alt="Иллюстрация аналитики"
+              loading="eager"
+              decoding="async"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="sponsors" aria-label="Партнёры и бренды">
+        <div class="sponsors__viewport">
+          <div class="sponsors__track" aria-hidden="true">
+            <img class="sponsors__logo" src="./img/sponsor-1.svg" alt="" />
+            <img class="sponsors__logo" src="./img/sponsor-2.svg" alt="" />
+            <img class="sponsors__logo" src="./img/sponsor-3.svg" alt="" />
+            <img class="sponsors__logo" src="./img/sponsor-4.svg" alt="" />
+            <img class="sponsors__logo" src="./img/sponsor-5.svg" alt="" />
+            <img class="sponsors__logo" src="./img/sponsor-6.svg" alt="" />
+
+            <img class="sponsors__logo" src="./img/sponsor-1.svg" alt="" />
+            <img class="sponsors__logo" src="./img/sponsor-2.svg" alt="" />
+            <img class="sponsors__logo" src="./img/sponsor-3.svg" alt="" />
+            <img class="sponsors__logo" src="./img/sponsor-4.svg" alt="" />
+            <img class="sponsors__logo" src="./img/sponsor-5.svg" alt="" />
+            <img class="sponsors__logo" src="./img/sponsor-6.svg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="hero hero--secondary" id="about" aria-label="Офферы">
+        <div class="hero__bg-wrap">
+          <img
+            class="hero__bg hero__bg--about"
+            src="./img/Group%207.png"
+            alt=""
+            aria-hidden="true"
+          />
+        </div>
+        <div class="container hero__inner--secondary">
+          <div class="hero__content">
+            <h2 class="section-title section-title--dark">
+              Избирательность вместо масс-маркета
+            </h2>
+            <p class="hero__text hero__text--secondary">
+              Мы не перегружаем систему сотнями предложений. В пуле только те
+              продукты, которые показывают стабильную конверсию и лояльность
+              аудитории. Каждый инструмент прошел техническую оптимизацию для
+              обеспечения предельного профита
+            </p>
+          </div>
+
+          <div class="hero__visual hero__visual--secondary">
+            <img
+              class="hero__img--secondary"
+              src="./img/selectivity-illustration.png"
+              alt="Иллюстрация избирательности"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section section--dark prozr_data"
+        id="prozr_data"
+        aria-label="Прозрачность данных"
+      >
+        <div class="container">
+          <h2 class="section-title section-title--gradient">
+            Прозрачность данных в реальном времени
+          </h2>
+          <p class="section-subtitle">
+            Успех в финансовой вертикали зависит от детального мониторинга.
+            <br />
+            Предоставляем полный стек инструментов для контроля показателей
+          </p>
+
+          <div class="cards">
+            <article class="card">
+              <img
+                class="card__icon"
+                src="./img/card-analytics.svg"
+                alt=""
+                aria-hidden="true"
+                width="120"
+                height="120"
+              />
+              <div class="card__body">
+                <h3 class="card__title">Мгновенная статистика</h3>
+                <p class="card__text">
+                  Отслеживание целевых действий без задержек и рассинхрона
+                </p>
+              </div>
+            </article>
+
+            <article class="card">
+              <img
+                class="card__icon"
+                src="./img/card-segmentation.svg"
+                alt=""
+                aria-hidden="true"
+                width="112"
+                height="83"
+              />
+              <div class="card__body">
+                <h3 class="card__title">Глубокая сегментация</h3>
+                <p class="card__text">
+                  Детальные отчеты по ключевым срезам для тонкой настройки ваших
+                  кампаний
+                </p>
+              </div>
+            </article>
+
+            <article class="card">
+              <img
+                class="card__icon"
+                src="./img/card-integration.svg"
+                alt=""
+                aria-hidden="true"
+                width="112"
+                height="83"
+              />
+              <div class="card__body">
+                <h3 class="card__title">Бесшовная интеграция</h3>
+                <p class="card__text">
+                  Настройка <span class="text-accent">Postback</span> и
+                  <span class="text-accent">API</span>-передачи данных в ваш
+                  рабочий софт за считанные минуты
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--warm" aria-label="Почему с нами выгодно">
+        <div class="container">
+          <h2 class="section-title section-title--gradient">
+            Почему с нами выгодно
+          </h2>
+
+          <div class="why">
+            <div class="why__sub">
+              <div class="why__row">
+                <div class="why__col">
+                  <div class="why__block">
+                    <h3 class="why__title">Прямой рекламодатель</h3>
+                    <ul class="why__list">
+                      <li>Работаем без посредников</li>
+                      <li>Высокие ставки и мгновенная обратная связь</li>
+                    </ul>
+                  </div>
+
+                  <div class="why__block">
+                    <h3 class="why__title">Стабильная инфраструктура</h3>
+                    <ul class="why__list">
+                      <li>Высокоскоростные лендинги</li>
+                      <li>Бесперебойный прием заявок</li>
+                    </ul>
+                  </div>
+
+                  <a class="btn btn--primary btn--pill" href="#form"
+                    >Стать партнером</a
+                  >
+                </div>
+
+                <div class="why__art why__art--primary">
+                  <img
+                    class="why__img"
+                    src="./img/about-illustration.png"
+                    alt="Иллюстрация выгод"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="why__sub why__sub--mirrored">
+              <div class="why__row">
+                <div class="why__art why__art--secondary">
+                  <img
+                    class="why__rocket-img"
+                    src="./img/защита.svg"
+                    alt="Ракета"
+                    width="559"
+                    height="489"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="why__col">
+                  <div class="why__block why__block--full">
+                    <h3 class="why__title">Финансовая гибкость</h3>
+                    <ul class="why__list">
+                      <li>Своевременные выплаты</li>
+                      <li>Поддержка вашего оборотного капитала</li>
+                    </ul>
+                  </div>
+
+                  <div class="why__block why__block--full">
+                    <h3 class="why__title">Экспертная поддержка</h3>
+                    <ul class="why__list">
+                      <li>Персональный менеджер</li>
+                      <li>Адаптируем воронку и масштабируем результат</li>
+                    </ul>
+                  </div>
+
+                  <a class="btn btn--primary btn--pill" href="#form"
+                    >Стать партнером</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--light" aria-label="Простой старт">
+        <div class="container simple-start">
+          <h2 class="section-title section-title--dark">Простой старт</h2>
+
+          <div class="simple-start__stage">
+            <div class="simple-start__cards">
+              <article class="simple-start__card">
+                <img
+                  class="simple-start__icon"
+                  src="./img/старт1.svg"
+                  alt=""
+                  aria-hidden="true"
+                />
+                <div class="simple-start__text">
+                  <h3 class="simple-start__title">Заявка:</h3>
+                  <p class="simple-start__subtitle">
+                    Оставьте контакты в форме ниже
+                  </p>
+                </div>
+                <img
+                  class="simple-start__corner"
+                  src="./img/simple_corner.svg"
+                  alt=""
+                  aria-hidden="true"
+                />
+              </article>
+
+              <article class="simple-start__card">
+                <img
+                  class="simple-start__icon"
+                  src="./img/старт2.svg"
+                  alt=""
+                  aria-hidden="true"
+                />
+                <div class="simple-start__text">
+                  <h3 class="simple-start__title">Обсуждение:</h3>
+                  <p class="simple-start__subtitle">
+                    Эксперт свяжется с вами для подбора оптимальных условий
+                  </p>
+                </div>
+                <img
+                  class="simple-start__corner"
+                  src="./img/simple_corner.svg"
+                  alt=""
+                  aria-hidden="true"
+                />
+              </article>
+
+              <article class="simple-start__card">
+                <img
+                  class="simple-start__icon"
+                  src="./img/старт3.svg"
+                  alt=""
+                  aria-hidden="true"
+                />
+                <div class="simple-start__text">
+                  <h3 class="simple-start__title">Запуск:</h3>
+                  <p class="simple-start__subtitle">
+                    Получайте ссылки и начинайте работу на результат
+                  </p>
+                </div>
+                <img
+                  class="simple-start__corner"
+                  src="./img/simple_corner.svg"
+                  alt=""
+                  aria-hidden="true"
+                />
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section section--form"
+        id="form"
+        aria-label="Форма заявки"
+      >
+        <div class="container">
+          <form class="form-card" id="partnerForm" novalidate>
+            <h2 class="section-title--dark section-title--center">
+              Стать партнером
+            </h2>
+
+            <div class="field">
+              <label class="field__label" for="name">Имя *</label>
+              <input
+                class="field__input"
+                id="name"
+                name="name"
+                type="text"
+                placeholder="Имя"
+                required
+              />
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="email">Email *</label>
+              <input
+                class="field__input"
+                id="email"
+                name="email"
+                type="email"
+                placeholder="@yandex.ru"
+                required
+              />
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="source">Комментарий </label>
+              <input
+                class="field__input"
+                id="source"
+                name="source"
+                type="text"
+              />
+            </div>
+
+            <label class="check">
+              <input
+                class="check__input"
+                type="checkbox"
+                id="policy"
+                required
+              />
+              <span class="check__box" aria-hidden="true"></span>
+              <span class="check__text"
+                >Согласен с политикой конфиденциальности*</span
+              >
+            </label>
+
+            <button
+              class="btn btn--primary btn--submit"
+              type="submit"
+              id="submitBtn"
+            >
+              Отправить запрос
+            </button>
+            <p
+              class="form-card__hint"
+              id="formHint"
+              role="status"
+              aria-live="polite"
+            ></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contacts">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <img
+            class="footer__logo"
+            src="./img/logo-footer.svg"
+            alt="EnergyLeads"
+          />
+          <a class="footer__mail" href="mailto:support@enerdgyleads.kz"
+            >support@enerdgyleads.kz</a
+          >
+        </div>
+
+        <div class="footer__meta">
+          <a class="footer__link" href="./politika-konfidentsialnosti.html"
+            >Политика конфиденциальности</a
+          >
+          <div class="footer__copy">
+            © 2026 Energyleads.<br class="footer__br" />
+            Все права защищены
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/main.js" defer></script>
+  </body>
+</html>

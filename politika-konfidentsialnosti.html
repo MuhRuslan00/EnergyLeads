@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Политика конфиденциальности — EnergyLeads</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <style>
+      .policy-page {
+        padding: 60px 0 80px;
+        min-height: 100vh;
+        background: #fffaf1;
+      }
+      .policy-header {
+        margin-bottom: 48px;
+      }
+      .policy-title {
+        font-family: "Poppins", system-ui, sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 1.3;
+        color: #5359e9;
+        margin: 0 0 12px;
+      }
+      .policy-date {
+        font-family: "Poppins", system-ui, sans-serif;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.5);
+      }
+      .back-link {
+        display: inline-block;
+        margin-bottom: 32px;
+        font-family: "Poppins", system-ui, sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        color: #5359e9;
+        text-decoration: none;
+        transition: opacity 0.2s;
+      }
+      .back-link:hover {
+        opacity: 0.7;
+      }
+      .policy-content {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+      }
+      .policy-section {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+      .policy-section-title {
+        font-family: "Poppins", system-ui, sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.4;
+        color: #131032;
+        margin: 0;
+      }
+      .policy-text {
+        font-family: "Poppins", system-ui, sans-serif;
+        font-size: 15px;
+        line-height: 1.7;
+        color: rgba(0, 0, 0, 0.72);
+        margin: 0;
+      }
+      .policy-text a {
+        color: #5359e9;
+      }
+      .policy-list {
+        margin: 0;
+        padding-left: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+      .policy-list li {
+        font-family: "Poppins", system-ui, sans-serif;
+        font-size: 15px;
+        line-height: 1.7;
+        color: rgba(0, 0, 0, 0.72);
+      }
+
+      @media (max-width: 769px) {
+        .policy-title { font-size: 28px; }
+        .policy-section-title { font-size: 17px; }
+      }
+      @media (max-width: 426px) {
+        .policy-title { font-size: 22px; }
+        .policy-section-title { font-size: 15px; }
+        .policy-text,
+        .policy-list li { font-size: 13px; }
+      }
+    </style>
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="container header__inner">
+        <a class="brand" href="index.html#top" aria-label="EnergyLeads — на главную">
+          <img class="brand__logo" src="./img/logo.svg" alt="EnergyLeads" />
+        </a>
+        <nav class="nav" aria-label="Навигация">
+          <a class="nav__link" href="index.html#top">О нас</a>
+          <a class="btn btn--primary btn--pill" href="index.html#contacts">Контакты</a>
+        </nav>
+        <button class="burger" aria-label="Открыть меню" aria-expanded="false">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </button>
+      </div>
+      <div class="mobile-menu" aria-hidden="true">
+        <a class="mobile-menu__link" href="index.html#top">О нас</a>
+        <a class="mobile-menu__link" href="index.html#contacts">Контакты</a>
+      </div>
+    </header>
+
+    <main class="policy-page">
+      <div class="container">
+        <a href="index.html" class="back-link">← Вернуться на главную</a>
+
+        <div class="policy-header">
+          <h1 class="policy-title">Политика в отношении обработки персональных данных</h1>
+        </div>
+
+        <div class="policy-content">
+          <section class="policy-section">
+            <h2 class="policy-section-title">1. Общие положения</h2>
+            <p class="policy-text">
+              Настоящая Политика в отношении обработки персональных данных (далее — «Политика») определяет порядок обработки и защиты персональных данных пользователей платформы EnergyLeads (далее — «Оператор», «Компания»).
+            </p>
+            <p class="policy-text">
+              Используя платформу EnergyLeads и предоставляя свои персональные данные, вы соглашаетесь с условиями настоящей Политики.
+            </p>
+          </section>
+
+          <section class="policy-section">
+            <h2 class="policy-section-title">2. Сведения об Операторе</h2>
+            <p class="policy-text">
+              <strong>Платформа:</strong> EnergyLeads<br />
+              <strong>Email:</strong> <a href="mailto:support@enerdgyleads.kz">support@enerdgyleads.kz</a>
+            </p>
+          </section>
+
+          <section class="policy-section">
+            <h2 class="policy-section-title">3. Персональные данные, которые мы обрабатываем</h2>
+            <p class="policy-text">Оператор обрабатывает следующие категории персональных данных:</p>
+            <ul class="policy-list">
+              <li>Имя</li>
+              <li>Адрес электронной почты (email)</li>
+              <li>Номер телефона</li>
+              <li>Контактные данные в мессенджерах (Telegram, WhatsApp)</li>
+              <li>Информация о тематике офферов и бизнес-активности</li>
+              <li>Технические данные (IP-адрес, тип браузера, данные об устройстве)</li>
+              <li>Данные о взаимодействии с платформой</li>
+            </ul>
+          </section>
+
+          <section class="policy-section">
+            <h2 class="policy-section-title">4. Цели обработки персональных данных</h2>
+            <p class="policy-text">Оператор обрабатывает персональные данные для следующих целей:</p>
+            <ul class="policy-list">
+              <li>Регистрация и идентификация пользователей на платформе</li>
+              <li>Обработка заявок и обращений пользователей</li>
+              <li>Связь с пользователями по вопросам использования платформы</li>
+              <li>Предоставление технической поддержки и консультаций</li>
+              <li>Улучшение качества работы платформы</li>
+            </ul>
+          </section>
+
+          <section class="policy-section">
+            <h2 class="policy-section-title">5. Правовые основания обработки</h2>
+            <ul class="policy-list">
+              <li>Согласие субъекта персональных данных</li>
+              <li>Исполнение договора, стороной которого является субъект персональных данных</li>
+              <li>Исполнение требований законодательства</li>
+            </ul>
+          </section>
+
+          <section class="policy-section">
+            <h2 class="policy-section-title">6. Сроки обработки персональных данных</h2>
+            <p class="policy-text">
+              Персональные данные обрабатываются в течение срока, необходимого для достижения целей обработки, или до момента отзыва согласия субъекта персональных данных.
+            </p>
+          </section>
+
+          <section class="policy-section">
+            <h2 class="policy-section-title">7. Передача персональных данных третьим лицам</h2>
+            <p class="policy-text">Оператор не передает персональные данные третьим лицам, за исключением случаев:</p>
+            <ul class="policy-list">
+              <li>Получения явного согласия субъекта персональных данных</li>
+              <li>Требований действующего законодательства</li>
+            </ul>
+          </section>
+
+          <section class="policy-section">
+            <h2 class="policy-section-title">8. Права субъектов персональных данных</h2>
+            <ul class="policy-list">
+              <li>Получать информацию об обработке персональных данных</li>
+              <li>Требовать уточнения, блокирования или уничтожения персональных данных</li>
+              <li>Отозвать согласие на обработку персональных данных</li>
+            </ul>
+          </section>
+
+          <section class="policy-section">
+            <h2 class="policy-section-title">9. Меры по защите персональных данных</h2>
+            <ul class="policy-list">
+              <li>Использование современных средств защиты информации</li>
+              <li>Ограничение доступа к персональным данным уполномоченным лицам</li>
+              <li>Регулярное обновление систем безопасности</li>
+            </ul>
+          </section>
+
+          <section class="policy-section">
+            <h2 class="policy-section-title">10. Изменения в Политике</h2>
+            <p class="policy-text">
+              Оператор оставляет за собой право вносить изменения в настоящую Политику. Актуальная версия всегда доступна на сайте платформы EnergyLeads.
+            </p>
+          </section>
+
+          <section class="policy-section">
+            <h2 class="policy-section-title">11. Контактная информация</h2>
+            <p class="policy-text">
+              По всем вопросам, связанным с обработкой персональных данных:<br />
+              Email: <a href="mailto:support@enerdgyleads.kz">support@enerdgyleads.kz</a>
+            </p>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer" id="contacts">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <img
+            class="footer__logo"
+            src="./img/logo-footer.svg"
+            alt="EnergyLeads"
+          />
+          <a class="footer__mail" href="mailto:support@enerdgyleads.kz"
+            >support@enerdgyleads.kz</a
+          >
+        </div>
+        <div class="footer__meta">
+          <a class="footer__link" href="politika-konfidentsialnosti.html"
+            >Политика конфиденциальности</a
+          >
+          <div class="footer__copy">© 2026 Energyleads. Все права защищены</div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/main.js" defer></script>
+  </body>
+</html>
